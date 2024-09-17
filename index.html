@@ -6,24 +6,34 @@
     <meta name="author" content="Antonio Ferrigno">
     <meta name="description" content="">
     <meta name="keyword" content="">
-    <link rel="stylesheet" href="./css/style.css">
+    
+    <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>Toboolist</title>
 </head>
+
 <body>
+<!-- banner con logo e titolo affiancati-->    
     <header>
         <div class="header-banner">
             <img src="./img/Logo.png" alt="logo">
-            <h1 class="logo-title">Toboolist<h1>
+            <h1 class="logo-title">Toboolist</h1>
         </div>
     </header>
-    
+<!-- fine banner e fine header-->
     <main>
+<!--inizio main con margini laterali del 25%-->
         <div class="container">
+
             <div class="inline-buttons">
+<!--pulsanti add task, add section-->
                 <button class="add-task-button">Add Task</button>
             </div>
 
@@ -31,34 +41,36 @@
                 <button class="add-section-button">Add Section</button>
             </div>
         </div>
-
+<!--Divisione tra la sezione dei pulsanti e quella delle task/info-->
         <div class="general-infos">
             <div class="new-tasks">
-                     <h2>&#9660;New Task</h2>
-                     <span><span class="checkmark">&check;</span><h3>Quarterly Newsletter</h3><div class="editorial">Editorial</div></span>
+                <h2>&#9660;New Task</h2>
+<!--Il checkmark stilizzato in css affianca un h3 ed un elemento inline stilizzato in css-->
+                <span class="checkmark">&check;</span><h3>Quarterly Newsletter</h3><div class="editorial">Editorial</div>
             </div>
 
             <div class="today-tasks">
                     <h2>&#9660;Today</h2>
-                    <span><span class="checkmark">&check;</span><h3>Recruiting blog post</h3><div class="editorial">Editorial</div></span><br>
-                    <span><span class="checkmark">&check;</span><h3>Mobile app launch</h3><div class="goals">Q1 Goals</div></span><br>
-                    <span><span class="not-done">&cross;</span><h3>Interview John H.</h3><div class="recruiting">Recruiting</div></span><br>
-                    <span><span class="checkmark">&check;</span><h3>Summit update to mobile storefronts</h3><div class="mobile">Mobile</div></span>
+                    <span class="checkmark">&check;</span><h3>Recruiting blog post</h3><div class="editorial">Editorial</div><br>
+                    <span class="checkmark">&check;</span><h3>Mobile app launch</h3><div class="goals">Q1 Goals</div><br>
+<!--La 'X' stilizzata in css affianca un h3 ed un elemento inline stilizzato in css-->
+                    <span class="not-done">&cross;</span><h3>Interview John H.</h3><div class="recruiting">Recruiting</div><br>
+                    <span class="checkmark">&check;</span><h3>Summit update to mobile storefronts</h3><div class="mobile">Mobile</div>
             </div>
 
             <div class="upcoming-tasks">
                 <h2>&#9660;Upcoming</h2>
-                <span><span class="not-done">&cross;</span><h3>Schedule meeting with Alex</h3></span><br>
-                <span><span class="checkmark">&check;</span><h3>Homepage refresh</h3></span><div class="website">Website</div><br>
-                <span><span class="checkmark">&check;</span><h3>Onboard new Sales team members</h3></span><div class="sales">Sales</div><br>
-                <span><span class="checkmark">&check;</span><h3>Review editorial calendar</h3><div class="editorial">Editorial</div></span>
+                <span class="not-done">&cross;</span><h3>Schedule meeting with Alex</h3><br>
+                <span class="checkmark">&check;</span><h3>Homepage refresh</h3><div class="website">Website</div><br>
+                <span class="checkmark">&check;</span><h3>Onboard new Sales team members</h3><div class="sales">Sales</div><br>
+                <span class="checkmark">&check;</span><h3>Review editorial calendar</h3><div class="editorial">Editorial</div>
         </div>
 
 
         </div>
         
 
-
+<!--FINE MAIN-->
     </main>
 </body>
 </html>
