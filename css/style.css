@@ -87,33 +87,37 @@ main {
 
 h2 {
     display: block;
+    margin-bottom: 15px;
 }
 
 h3{
     font-weight: normal;
     display: inline-block;
     line-height:2rem;
+    margin-bottom: 15px;
+    margin-left: 10px;
 }
+
 
 .checkmark {
     display: inline-block;
-    color: #03db67;
-    border-color: #03db67;
+    color: #068d45;
+    border-color: #068d45;
     border-radius: 50%;
     font-size: 16px;
     padding: 3px;
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
     margin-right: 5px;
 }
 
 .not-done {
-    color: #de0000;
-    border-color: #de0000;
+    color: #830000;
+    border-color: #830000;
     border-radius: 50%;
     font-size: 16px;
     padding: 3px;
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
     margin-right: 5px;
 }
