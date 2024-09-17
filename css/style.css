@@ -117,3 +117,70 @@ h3{
 .today-tasks{
     margin-bottom:20px;
 }
+
+.editorial {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px 5px;
+    background-color: rgb(8, 106, 182);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.goals {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px 5px;
+    background-color: rgb(166, 14, 255);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.recruiting {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px 5px;
+    background-color: rgb(6, 208, 188);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.mobile {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px 5px;
+    background-color: rgb(226, 165, 8);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.website {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px 5px;
+    background-color: rgb(165, 8, 182);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sales {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px 5px;
+    background-color: rgb(38, 171, 9);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
