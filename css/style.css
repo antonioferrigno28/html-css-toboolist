@@ -74,3 +74,46 @@ main {
     padding:5px;
 }
 
+h2 {
+    display: block;
+}
+
+h3{
+    font-weight: normal;
+    display: inline-block;
+    line-height:2rem;
+}
+
+.checkmark {
+    color: #03db67;
+    border-color: #03db67;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 2px;
+    border-width: 1px;
+    border-style: solid;
+    margin-right: 5px;
+}
+
+.not-done {
+    color: #de0000;
+    border-color: #de0000;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 2px;
+    border-width: 1px;
+    border-style: solid;
+    margin-right: 5px;
+}
+
+.new-tasks{
+    margin-bottom:20px;
+}
+
+.upcoming-tasks{
+    margin-bottom:20px;
+}
+
+.today-tasks{
+    margin-bottom:20px;
+}
