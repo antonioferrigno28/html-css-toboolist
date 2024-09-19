@@ -35,37 +35,29 @@ main {
     margin: 0 25% 0 25%;
 }
 
-
-.add-task-button {
-        background-color: rgb(18, 154, 207);
-        border: 1px solid #525252;
-        color: white;
+.butn {
+    
         text-align: center;
-        text-decoration: none;
         display: inline-block;
         font-size: 16px;
         font-weight: bold;
-        padding: 10px 12px 10px 12px;
+        padding: 10px 12px;
         border-radius: 10%;
-        margin-top: 10px;
-        margin-left: 30px;
-        margin-bottom: 10px;
+        margin: 10px 0 10px 30px;
+        cursor:pointer;
+        border: 1px solid currentColor;
+}
+
+.add-task-button {
+    background-color: rgb(18, 154, 207);
+    color: white;
+    
 }
 
 .add-section-button {
     background-color: white;
-    border: 1px solid #8b8b8b;
     color: #8b8b8b;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 10px 12px 10px 12px;
-    border-radius: 10%;
-    margin-left: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+ 
 }
 
 .inline-buttons{
@@ -98,43 +90,34 @@ h3{
     margin-left: 10px;
 }
 
-
-.checkmark {
+.mark-item::before{
     display: inline-block;
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 3px;
+    border-width: 2px;
+    border-style: solid;
+    margin-right: 5px;
+}
+
+ .mark-item.checkmark::before {
+    content:'\2713';
     color: #068d45;
     border-color: #068d45;
-    border-radius: 50%;
-    font-size: 16px;
-    padding: 3px;
-    border-width: 2px;
-    border-style: solid;
-    margin-right: 5px;
 }
 
-.not-done {
+.mark-item.not-done::before {
+    content:'\2717';
     color: #830000;
     border-color: #830000;
-    border-radius: 50%;
-    font-size: 16px;
-    padding: 3px;
-    border-width: 2px;
-    border-style: solid;
-    margin-right: 5px;
-}
+} 
 
-.new-tasks{
+.tasks{
     margin-bottom:20px;
 }
 
-.upcoming-tasks{
-    margin-bottom:20px;
-}
 
-.today-tasks{
-    margin-bottom:20px;
-}
-
-.editorial {
+.label {
     display: inline-block;
     margin-left: 10px;
     padding: 5px 5px;
@@ -145,59 +128,32 @@ h3{
     margin-bottom: 10px;
 }
 
-.goals {
-    display: inline-block;
-    margin-left: 10px;
-    padding: 5px 5px;
+.label-editorial {
+
+    background-color: rgb(8, 106, 182);
+}
+
+.label-goals {
+
     background-color: rgb(166, 14, 255);
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    margin-bottom: 10px;
 }
 
-.recruiting {
-    display: inline-block;
-    margin-left: 10px;
-    padding: 5px 5px;
+.label-recruiting {
+
     background-color: rgb(4, 172, 155);
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    margin-bottom: 10px;
 }
 
-.mobile {
-    display: inline-block;
-    margin-left: 10px;
-    padding: 5px 5px;
+.label-mobile {
+
     background-color: rgb(226, 165, 8);
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    margin-bottom: 10px;
 }
 
-.website {
-    display: inline-block;
-    margin-left: 10px;
-    padding: 5px 5px;
+.label-website {
+
     background-color: rgb(165, 8, 182);
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    margin-bottom: 10px;
-    margin-top: 10px;
 }
 
-.sales {
-    display: inline-block;
-    margin-left: 10px;
-    padding: 5px 5px;
+.label-sales {
+
     background-color: rgb(38, 171, 9);
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    margin-bottom: 10px;
 }
-
